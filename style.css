@@ -1,10 +1,10 @@
-@keyframes goodAnswerAnimation {
-    from {background-color: yellow;}
-    to {background-color: green;}
+@keyframes goodAnswerAnimation{
+  from {background-color: yellow;}
+  to {background-color: green;}
 }
 @keyframes wrongAnswerAnimation {
-    from {background-color: yellow;}
-    to {background-color: red;}
+  from {background-color: yellow;}
+  to {background-color: red;}
 }
 @keyframes newQuestion {
   from {margin-left: 800px;}

@@ -11,10 +11,13 @@ let counter = 0;
 let quiz;
 let playerData = {}; // object, hierin worden de game gegevens opgeslagen
 
-function init(){
+function init()
+{
   // haal de data op met AJAX
   makeAjaxCall (quizJsonFile, "GET").then (handleReceivedData); // doe het! wacht op promise
-  function handleReceivedData(jsonString){ // pak de data aan
+  function handleReceivedData(jsonString)
+  {
+    // pak de data aan
     let quizString = jsonString;
     // console.log(quizString); // debug
     quiz = JSON.parse(quizString);
@@ -23,7 +26,8 @@ function init(){
   }
 }
 
-function initQuiz(){
+function initQuiz()
+{
   // reset alle player game variabelen
   playerData.goodAnswers = 0;
   playerData.wrongAnswers = 0;
@@ -32,14 +36,17 @@ function initQuiz(){
   prepareQuestions(); // start de quiz
 }
 
-function prepareQuestions() {
+function prepareQuestions()
+{
   questionBox.className = "questionBox-new";
   let quizImage = quiz.quizMetaData.imageURI;
   quizWrapper.style.backgroundImage = "url("+ quizImage + ")";
-  if (counter < quiz.quizContent.length) {
+  if (counter < quiz.quizContent.length)
+  {
     myQuestion.innerHTML = quiz.quizContent[counter].question;
     myAnswer.innerHTML = "";
-    for (let i = 0; i < quiz.quizContent[counter].answers.length; i++) {
+    for (let i = 0; i < quiz.quizContent[counter].answers.length; i++)
+    {
       let answer = document.createElement('li');
       answer.className = "answer";
       answer.score = quiz.quizContent[counter].answers[i].feedback;
@@ -47,16 +54,20 @@ function prepareQuestions() {
       myAnswer.appendChild(answer);
       myAnswer.addEventListener('click', evaluate, true)
     }
-  } else {
+  } else
+  {
     finishQuiz();
   }
 }
 
-function evaluate(evt) {
-  if (evt.target.score) {
+function evaluate(evt)
+{
+  if (evt.target.score)
+  {
     evt.target.className = "right";
     playerData.goodAnswers += 1; // increase good score
-  } else {
+  } else
+  {
     evt.target.className = "wrong";
     playerData.wrongAnswers += 1; // increase wrong score
   }
@@ -65,7 +76,8 @@ function evaluate(evt) {
   setTimeout(prepareQuestions, delayTime);
 }
 
-function finishQuiz() {
+function finishQuiz()
+{
   questionBox.style.display = "none";
   resultBox.style.display = "block";
 }
