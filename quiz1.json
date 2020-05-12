@@ -1,74 +1,82 @@
 {
-	"quizID": "Bla Bla Questions",
+	"quizID": "Quiz1",
     "quizMetaData":
     {
-        "title": "Bla Bla Knowledge",
-        "imageURI": "https://sd.keepcalms.com/i-w600/keep-calm-and-dont-ask-stupid-questions.jpg"
+        "title": "World of Warcraft lore quiz",
+        "imageURI": "https://amazingmerch.net/wp-content/uploads/2018/07/World-of-Warcraft-is-now-Subscribe-to-Play-1-870x460.jpg"
     },
     "quizContent":		
 	[
 		{
-			"question": "Wie ontwierp de Eiffeltoren?",
+			"question": "How many old gods exist on Azeroth",
 			"answers": 
 			[
 				{
-					"answer": "Eiffel",
+					"answer": "1",
+					"feedback": false
+				},
+				{
+					"answer": "2",
+					"feedback": false
+				},
+				{
+					"answer": "3",
+					"feedback": false
+				},
+				{
+					"answer": "4",
+					"feedback": false
+				},
+				{
+					"answer": "5",
 					"feedback": true
 				},
 				{
-					"answer": "Berlage",
-					"feedback": false
-				},
-				{
-					"answer": "Edison",
-					"feedback": false
-				},
-				{
-					"answer": "James Watt",
+					"answer": "6",
 					"feedback": false
 				}
 			]
 		},
 		{
-			"question": "In welke kleuren speelt blauw-wit?",
+			"question": "Who is part of the modern (So past the legion expansion) four horseman",
 			"answers": 
 			[
 				{
-					"answer": "blauw en wit",
+					"answer": "Galen Trollbane",
+					"feedback": false
+				},
+				{
+					"answer": "Danath Trollbane",
+					"feedback": false
+				},
+				{
+					"answer": "Thoras Trollbane",
 					"feedback": true
 				},
 				{
-					"answer": "groen en geel",
-					"feedback": false
-				},
-				{
-					"answer": "rood en wit",
-					"feedback": false
-				},
-				{
-					"answer": "rood en blauw",
+					"answer": "Renault Morgraine",
 					"feedback": false
 				}
 			]
 		},
 		{
-			"question": "Wat is de voornaam van Eddy Merckx?",
+			"question": "Who let the campaign against the Lich king for the Horde",
 			"answers": 
 			[
 				{
-					"answer": "Jelle",
+					"answer": "Thrall",
 					"feedback": false
 				},
 				{
-					"answer": "Ed",
-					"feedback": false
-				},
-				{
-					"answer": "Eddy",
+					"answer": "Garrosh Hellscream",
 					"feedback": true
 				},
 				{
-					"answer": "Gerrit",
+					"answer": "Varok Saurfang",
+					"feedback": false
+				},
+				{
+					"answer": "Sylvanas Windrunner",
 					"feedback": false
 				}
 			]

@@ -1,59 +1,79 @@
 {
-    "quizID": "Corona",
+    "quizID": "Quiz1",
     "quizMetaData":
     {
-        "title": "Corona Virus Knowledge",
-        "imageURI": "https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+        "title": "World of Warcraft lore quiz 2",
+        "imageURI": "https://amazingmerch.net/wp-content/uploads/2018/07/World-of-Warcraft-is-now-Subscribe-to-Play-1-870x460.jpg"
     },
     "quizContent":
     [ 
-        {   "question": "How long does the covid-19 survive outside the body??",
+        {   "question": "How many orc clan's exist",
             "answers": 
             [
                 {
-                    "answer": "A week in the air and on surfaces",
+                    "answer": "7",
                     "feedback": false
                 },
                 {
-                    "answer": "Several hours to days",
+                    "answer": "13",
+                    "feedback": false
+                },
+                {
+                    "answer": "15",
+                    "feedback": false
+                },
+                {
+                    "answer": "20",
                     "feedback": true
                 },
                 {
-                    "answer": "Up to two and a half weeks",
+                    "answer": "23",
+                    "feedback": false
+                },
+                {
+                    "answer": "28",
                     "feedback": false
                 }
             ]
         },
-        {   "question": "What’s more important for preventing infection?",
+        {   "question": "Who created the first Demon Hunter",
             "answers": 
             [
                 {
-                    "answer": "Frequent hand-washing",
+                    "answer": "Sargeras",
                     "feedback": true
                 },
                 {
-                    "answer": "Wearing a face mask",
+                    "answer": "Illidan Stormrage",
+                    "feedback": false
+                },
+                {
+                    "answer": "Lady Vash'j",
+                    "feedback": false
+                },
+                {
+                    "answer": "Azzinoth",
                     "feedback": false
                 }
             ]
         },
-        {   "question": "Who’s at highest risk of developing severe Covid-19 disease?",
+        {   "question": "Who was the first Death Knight ever created",
             "answers": 
             [
                 {
-                    "answer": "Children",
+                    "answer": "Arthas Menethil",
                     "feedback": false
                 },
                 {
-                    "answer": "People over 60 years of age",
+                    "answer": "Teron Gorefiend",
                     "feedback": true
                 },
                 {
-                    "answer": "Pregnant women",
+                    "answer": "Darion Mograine",
                     "feedback": false
                 },
                 {
-                    "answer": "Those with existing medical conditions",
+                    "answer": "Ner'Zul",
                     "feedback": false
                 }
             ]
